@@ -12,8 +12,8 @@ def button_press(num):
 
     if num == '**':
         equation_text += '^'
-    elif num == 'x':
-        equation_text += '*'
+    elif num == '*':
+        equation_text += 'x'
     else:
         equation_text += num
     equation_display_label.set(equation_text)
